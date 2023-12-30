@@ -22,7 +22,7 @@ var klaroConfig = {
     translations: {
         en: {
             consentModal: {
-                title: '<u>test</u>',
+                title: 'Cookie',
                 description:
                     'Here you can see and customize the information that we collect about you. Entries marked as "Example" are just for demonstration purposes and are not really used on this website.',
             },
@@ -71,11 +71,7 @@ var klaroConfig = {
             default: false,
             purposes: ['marketing'],
         },
-        {
-            name: 'Facebook Ads',
-            default: false,
-            purposes: ['marketing'],
-        },
+        
         {
             name: 'Google Analytics',
             default: false,
